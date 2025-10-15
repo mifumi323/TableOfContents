@@ -1,6 +1,7 @@
 {
     "name": "mifumi323/table-of-contents",
     "description": "A library to handle table of contents.",
+    "version": "1.0.0",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^12.4"
