@@ -1,7 +1,7 @@
 {
     "name": "mifumi323/table-of-contents",
     "description": "A library to handle table of contents.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "license": "Apache-2.0",
     "require-dev": {
