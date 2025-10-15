@@ -16,7 +16,7 @@ class TableOfContents
             return '';
         }
 
-        return '<nav class="table-of-contents">'.$toc->toHtml().'</nav>';
+        return '<nav id="table-of-contents">'.$toc->toHtml().'</nav>';
     }
 
     public static function parse(string $html): ?self
