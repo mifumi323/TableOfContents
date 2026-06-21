@@ -21,7 +21,7 @@ class TableOfContents
 
     public static function parse(string $html): ?self
     {
-        $count = preg_match_all('/<h([1-6]) id="([^"<>]+)">(.+?)<\/h[1-6]/i', $html, $matches);
+        $count = preg_match_all('/<h([1-6])(?:\s+[^>]*)?\s+id="([^"<>]+)"(?:\s+[^>]*)?>(.+?)<\/h[1-6]/i', $html, $matches);
         if ($count <= 0) {
             return null;
         }
